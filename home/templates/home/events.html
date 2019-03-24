@@ -1,0 +1,146 @@
+{% extends 'home/header.html' %}
+
+{% load static %}
+
+{% block content %}
+
+{% include 'home/includes/default_header.html' %}
+
+<div class="bg-light">
+
+    
+
+    <section>
+        <div class="jumbotron-fluid text-center body-bg text-dark">
+            <h1 class="display-3 pt-3">Hello, world!</h1>
+            <p class="lead">This is a simple hero unit, a simple jumbotron-style component for calling extra attention
+                to
+                featured content or information.</p>
+            <hr class="my-4">
+            <p>It uses utility classes for typography and spacing to space content out within the larger container.</p>
+            <p class="lead pb-4">
+                <a class="btn btn-primary btn-lg" href="#" role="button">Get Tickets</a>
+            </p>
+        </div>
+    </section>
+
+    <section>
+        <div class="container-fluid py-5 event-grid text-dark">
+            <div class="row">
+
+                <div class="card-deck px-3 pb-3 rounded-0">
+                    <div class="card m-1">
+                        <img class="card-img-top" src="static/img/2.jpg" alt="Card image cap">
+                        <div class="card-body">
+                            <h4 class="card-title">Card title</h4>
+                            <p class="card-text">This is a longer card with supporting text below as a natural lead-in
+                                to
+                                additional
+                                content. This content is a little bit longer.</p>
+                            <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                        </div>
+                    </div>
+                    <div class="card m-1">
+                        <img class="card-img-top" src="static/img/2.jpg" alt="Card image cap">
+                        <div class="card-body">
+                            <h4 class="card-title">Card title</h4>
+                            <p class="card-text">This card has supporting text below as a natural lead-in to additional
+                                content.</p>
+                            <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                        </div>
+                    </div>
+                    <div class="card m-1">
+                        <img class="card-img-top" src="static/img/2.jpg" alt="Card image cap">
+                        <div class="card-body">
+                            <h4 class="card-title">Card title</h4>
+                            <p class="card-text">This is a wider card with supporting text below as a natural lead-in to
+                                additional
+                                content. This card has even longer content than the first to show that equal height
+                                action.
+                            </p>
+                            <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                        </div>
+                    </div>
+                    <!---->
+                </div>
+
+                <div class="card-deck px-3 pb-3 rounded-0">
+                    <div class="card m-1">
+                        <img class="card-img-top" src="static/img/2.jpg" alt="Card image cap">
+                        <div class="card-body">
+                            <h4 class="card-title">Card title</h4>
+                            <p class="card-text">This is a longer card with supporting text below as a natural lead-in
+                                to
+                                additional
+                                content. This content is a little bit longer.</p>
+                            <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                        </div>
+                    </div>
+                    <div class="card m-1">
+                        <img class="card-img-top" src="static/img/2.jpg" alt="Card image cap">
+                        <div class="card-body">
+                            <h4 class="card-title">Card title</h4>
+                            <p class="card-text">This card has supporting text below as a natural lead-in to additional
+                                content.</p>
+                            <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                        </div>
+                    </div>
+                    <div class="card m-1">
+                        <img class="card-img-top" src="static/img/2.jpg" alt="Card image cap">
+                        <div class="card-body">
+                            <h4 class="card-title">Card title</h4>
+                            <p class="card-text">This is a wider card with supporting text below as a natural lead-in to
+                                additional
+                                content. This card has even longer content than the first to show that equal height
+                                action.
+                            </p>
+                            <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                        </div>
+                    </div>
+                    <!---->
+                </div>
+
+                <p>{{events}} </p>
+
+                <!--<div class="card-deck px-3 pb-3">
+                        <div class="card">
+                            <img class="card-img-top" src="static/img/2.jpg" alt="Card image cap">
+                            <div class="card-body">
+                                <h4 class="card-title">Card title</h4>
+                                <p class="card-text">This is a longer card with supporting text below as a natural lead-in
+                                    to
+                                    additional
+                                    content. This content is a little bit longer.</p>
+                                <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                            </div>
+                        </div>
+                        <div class="card">
+                            <img class="card-img-top" src="static/img/2.jpg" alt="Card image cap">
+                            <div class="card-body">
+                                <h4 class="card-title">Card title</h4>
+                                <p class="card-text">This card has supporting text below as a natural lead-in to additional
+                                    content.</p>
+                                <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                            </div>
+                        </div>
+                        <div class="card">
+                            <img class="card-img-top" src="static/img/2.jpg" alt="Card image cap">
+                            <div class="card-body">
+                                <h4 class="card-title">Card title</h4>
+                                <p class="card-text">This is a wider card with supporting text below as a natural lead-in to
+                                    additional
+                                    content. This card has even longer content than the first to show that equal height
+                                    action.
+                                </p>
+                                <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                            </div>
+                        </div>
+                    </div>-->
+
+            </div>
+        </div>
+    </section>
+
+</div>
+
+{% endblock %}

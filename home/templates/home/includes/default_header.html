@@ -1,0 +1,35 @@
+
+{% load static %}
+
+{% block content %}
+
+<nav class="navbar navbar-expand-lg navbar-light">
+
+    <img src="{% static 'home/img/icon.png'%}" width="40px" height="40px" alt="site logo">
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup"
+        aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse justify-content-end py-1" id="navbarNavAltMarkup">
+        <div class="navbar-nav">
+            <a class="nav-item nav-link create px-3" href="../">Home</a>
+            <a class="nav-item nav-link create px-3" href="../events/">Events <span
+                    class="sr-only">(current)</span></a>
+            <a class="nav-item nav-link create px-3" href="../about/">About</a>
+            <a class="nav-item nav-link create px-3" href="signin.html">Sign In</a>
+            <li class="nav-item dropdown create px-3">
+                <a class="nav-link dropdown-toggle create event" href="#" id="navbarDropdownMenuLink"
+                    data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    Create Event
+                </a>
+                <div class="dropdown-menu bg-none" aria-labelledby="navbarDropdownMenuLink">
+                    <a class="dropdown-item drop" href="#">Meetup</a>
+                    <a class="dropdown-item drop" href="#">Party</a>
+                    <a class="dropdown-item drop" href="#">Fellowship</a>
+                </div>
+            </li>
+        </div>
+    </div>
+</nav>
+
+{% endblock %}

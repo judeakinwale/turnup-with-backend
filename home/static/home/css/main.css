@@ -1,0 +1,89 @@
+*{
+  font-family: 'Montserrat', sans-serif;
+}
+
+body, footer{
+  color: #f3e5f5 !important;
+}
+
+.members > div:nth-child(even){
+  margin-top: 4em;
+  margin-bottom: 1em;
+}
+
+body{
+  /*background: #E1BEE7;*/
+  background: url(../img/background.jpg);
+  background-attachment: fixed;
+}
+
+.nav-padding{
+  margin-bottom: 5em !important;
+}
+
+.body-bg{
+  background: #eee;
+  /*margin-top: 10px !important;*/
+}
+
+.top-margin{
+  margin-top: 4.5em;
+}
+
+.create{
+  color:white;
+  color: #6200ea;
+  color: #f3e5f5 !important;
+}
+
+.event{
+  font-weight: bolder; 
+  /*background: yellow;*/
+  background: #f5fffa;
+  color: #333 !important;
+  border-radius: 2px;
+}
+
+.event-grid{
+  padding-left: 12%;
+  padding-right: 12%;
+}
+
+.bg-none{
+  background: transparent;
+}
+
+.drop{
+  color: #333;
+  background: #f5fffa;
+}
+
+.social{
+  font-size: 12px !important;
+  margin-left: 4px;
+}
+
+.app-link{
+  margin-top: -1em;
+}
+
+.go-up{
+  color: #f5fffa;
+}
+
+.go-up :hover{
+  color: #f5fffa;
+}
+
+.event-grid{
+  color: #333;
+}
+
+.card:hover{
+  transition: 20ms;
+  box-shadow: 2px 2px 5px 3px rgb(165, 165, 165); 
+}
+
+.button{
+  border-radius: 4px !important;
+}
